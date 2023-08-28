@@ -9,7 +9,7 @@ const VaccinationCoverage = props => {
     }
     return number.toString()
   }
-  const {VaccinationCoverageDetails} = props
+  const {vaccinationCoverageDetails} = props
 
   return (
     <div className="vaccination-by-coverage-container">
